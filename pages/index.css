@@ -95,13 +95,17 @@
 
 .header__footer {
     display: flex;
-    flex-direction: column;
     position: absolute;
     bottom: 40px;
-    margin-bottom: 100px;
+    left: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding: 0 80px;
+    box-sizing: border-box;
 }
 
-.header__paragraph {
+.header__hours {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -112,6 +116,7 @@
     flex-direction: column;
 }
 
-.header__footer_text {
+.header__paragraph {
     margin: 0;
+    color: #6f6f6f;
 }
