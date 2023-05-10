@@ -179,3 +179,15 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.aeropress {
+    border: none;
+    width: 480px;
+    height: 273px;
+}
+
+.french {
+    border: none;
+    width: 480px;
+    height: 273px;
+}
