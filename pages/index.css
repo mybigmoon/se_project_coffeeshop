@@ -182,42 +182,46 @@
 }
 
 .reservation {
-    background-image: url(../images/background_reservation.svg);
+    height: 100%;
+    background-color: #d9e7ff;
+    background-image: url("../images/background_reservation.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #d9e7ff;
-    height: 100vh;
-    min-height: 953px;
-    max-height: 1011px;
-    padding: 30px 80px 0;
-    box-sizing: border-box;
-    margin-bottom: 24px;
 }
 
 .reservation__title {
-    font-family: Inter;
+    padding-top: 100px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
 }
 
 .reservation__form {
-    max-width: 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form__input {
     border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
 }
 
 .form__fieldset {
     display: flex;
     flex-direction: column;
     border: none;
+    margin-bottom: 120px;
 }
 
 .form__label {
@@ -241,14 +245,23 @@
     border: none;
     background-color: #2f80ed;
     color: #ffffff;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    margin-bottom: 32px;
 }
 
 .form__button:hover {
-    opacity: 70%;
+    opacity: 0.7;
 }
 
 .form__checkbox {
     border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    margin-bottom: 0;
+    background-color: #2f80ed;
+    background-image: url("../images/check.svg");
 }
 
 input {
@@ -257,12 +270,15 @@ input {
     margin-bottom: 32px;
 }
 
-input[type="text"] {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+.form__input[type="text"],
+.form__input[type="number"],
+.form__input[type="datetime-local"],
+.form__input[type="email"] {
+    max-width: 385px;
+    min-width: 385px;
+    height: 60px;
+    margin-bottom: 32px;
+    margin-top: 8px;
 }
 
 input::placeholder {
