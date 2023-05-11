@@ -214,6 +214,20 @@
     border-radius: 4px;
 }
 
+.form__fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.form__label {
+    margin-bottom: 8px;
+}
+
+.form__label_terms {
+    display: flex;
+}
+
 .form__button {
     border-radius: 4px;
     transition-property: opacity;
@@ -223,6 +237,10 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    height: 60px;
+    border: none;
+    background-color: #2f80ed;
+    color: #ffffff;
 }
 
 .form__button:hover {
@@ -234,8 +252,9 @@
 }
 
 input {
-    max-width: 385px;
     height: 60px;
+    border: none;
+    margin-bottom: 32px;
 }
 
 input[type="text"] {
