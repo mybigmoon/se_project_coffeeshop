@@ -33,6 +33,13 @@
     display: block;
 }
 
+.header__logo {
+    width: 125px;
+    height: 142px;
+    position: absolute;
+    left: 30px;
+}
+
 .header__title {
     font-family: "Inter", "Times New Roman";
     font-style: normal;

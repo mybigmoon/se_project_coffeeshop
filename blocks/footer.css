@@ -15,6 +15,12 @@
     justify-content: space-between;
 }
 
+.footer__logo {
+    margin: 0;
+    width: 116px;
+    height: 21px;
+}
+
 .footer__column {
     display: flex;
     flex-direction: column;
