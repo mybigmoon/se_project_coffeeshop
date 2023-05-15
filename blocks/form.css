@@ -3,7 +3,17 @@
 }
 
 .form__input {
-    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    height: 60px;
+    border: radius 4px #838383;
+    margin-bottom: 32px;
+}
+
+.form__input::placeholder {
+    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
