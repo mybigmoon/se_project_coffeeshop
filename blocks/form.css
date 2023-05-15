@@ -37,6 +37,7 @@
 .form__label_terms {
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
 .form__button {
