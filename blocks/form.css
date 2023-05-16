@@ -43,7 +43,7 @@
     flex-direction: column;
 }
 
-.form__label_terms {
+.form__label_type_terms {
     display: flex;
     justify-content: center;
     flex-direction: row;
