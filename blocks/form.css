@@ -26,10 +26,12 @@
     flex-direction: column;
     border: none;
     margin-bottom: 120px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .form__label {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
 }
@@ -79,7 +81,7 @@
     height: 60px;
     margin-bottom: 32px;
     margin-top: 8px;
-    font-family: Inter;
+    font-family: "Inter", "Arial, sans serif";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
